@@ -54,10 +54,14 @@ eliminated them with another week or two of work on the scene.
 Each significant object in the final render has its own directory (e.g inkpot, desk, etc).
 Each directory contains:
 
-	* The povray definition file for the object. The object are more or less centered at 0,0,0 and each object 'exports' variables containing its dimensions.  For example: tree/ contains tree.pov which defines the tree outside the window. The tree.pov file contains global variables 'treeDim' which is a vector in R3 containing the length of the tree in all three dimensions.  The tree's centre (roughly) will be at (0,0,0) so the top of the tree will be at treeDim.y / 2.
+	* The povray definition file for the object.
+         The objects are more or less centered at 0,0,0 and each object 'exports' variables containing its dimensions.  For example: tree/ contains tree.pov which defines the tree outside the window. The tree.pov file contains global variables 'treeDim' which is a vector in R3 containing the length of the tree in all three dimensions.  The tree's centre (roughly) will be at (0,0,0) so the top of the tree will be at treeDim.y / 2.
 
-	* A povray definition file containing a simple camera and light source. This allows the objects in the scene to be viewed one at a time making it much easier to modify objects. The name of this file tends to be the same as the name of the object file with 'r' prefixed.  For example: The tree directory contains a file called 'rtree.pov' which can be used to render the tree on a plane with a simple light source.
+	* A povray definition file containing a simple camera and light source.
+          This allows the objects in the scene to be viewed one at a time making it much easier to modify objects. The name of this file tends to be the same as the name of the object file with 'r' prefixed.  For example: The tree directory contains a file called 'rtree.pov' which can be used to render the tree on a plane with a simple light source.
 
-	* A povray configuration file. This is always called povray.ini.  This is used in tandem with the above test povray file to allow the object to be rendered in isolation.
+	* A povray configuration file.
+          This is always called povray.ini.  This is used in tandem with the above test povray file to allow the object to be rendered in isolation.
 
-	* A script file used to render the object by itself. This has the same name as the object.
+	* A script file used to render the object by itself.
+	  This has the same name as the object.
