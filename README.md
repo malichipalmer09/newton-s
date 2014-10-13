@@ -23,7 +23,8 @@ loop.
 
 
 ##Things that worked out
-	* Choosing a home setting was a good idea. I was sure that this would work out well before I started. The walls of the house effectively introduce a draw distance and require fewer objects to be modelled for a realistic scene. Additionally, making natural objects look realistic tends to require more effort due to their complexity.  
+<ul>
+	<li>Choosing a home setting was a good idea. I was sure that this would work out well before I started. The walls of the house effectively introduce a draw distance and require fewer objects to be modelled for a realistic scene. Additionally, making natural objects look realistic tends to require more effort due to their complexity.</li>
 
 	* The idea behind the scene (a look into Newton's home) could be portrayed quite simply and effectively with povray. Newton's life can be easily symbolised through a set of discrete objects (cradle, prism, writings on calculus, apple tree) which are reasonably easy to model with povray. At the risk of sounding pretentious I would say that I didn't sacrifice much 'artistic value' by using povray.
 
